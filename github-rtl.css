@@ -2,6 +2,7 @@
     --side-bar-bg-color: #fafafa;
     --control-text-color: #777;
 }
+@import url('https://fonts.googleapis.com/css?family=Alef&display=swap');
 
 @include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
 
@@ -35,8 +36,6 @@
 
 html {
     font-size: 16px;
-    direction: rtl;
-    
 }
 
 body {
@@ -50,6 +49,7 @@ body {
   	margin: 0 auto;
   	padding: 30px;
     padding-bottom: 100px;
+    direction: rtl;
 }
 #write > ul:first-child,
 #write > ol:first-child{
